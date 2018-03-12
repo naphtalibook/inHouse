@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+}
+#main{
+    width: 80%;
+    padding: 2em;
+    margin: 0em auto;
+    padding: 3em 1em;
+    background-color: rgb(248, 248, 248);
+}
+#logo{
+    width: 8em;
+    position: absolute;
+    left: 10em;
+    top: 1em;
+}
+
+h1{
+    text-align: center;
+    color: #4CAF50;
+}
+h2{
+    text-decoration: underline;
+    color: #4CAF50;
+}
+ol{
+    padding: 0em 1em;
+}
+li{
+    padding: 1em 0em;
+    size: 1.3em;
+    font-weight: bold;
+}
+#instructions h3{
+    margin: 2em 0em 0.3em;
+}
+#instructions li{
+    font-weight: inherit;
+}
+a{
+    color: rgb(85, 171, 228);
+}
+
+#footer p {
+    border-top: 1px solid gray;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    bottom: 0em;
+    
+}
+
+
+@media screen and (max-width: 750px){
+    #main{
+        width: 90%;
+    }
+    #logo{
+        width: 5em;
+        position: absolute;
+        left: 2.5em;
+        top: 1em;
+    }
+}
